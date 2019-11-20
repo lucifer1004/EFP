@@ -3,6 +3,7 @@
 !*.pony
 !*.exs
 !*.kts
+!*.cr
 !.gitignore
 !LICENSE
 !*.md
