@@ -4,6 +4,7 @@
 !*.exs
 !*.kts
 !*.cr
+!*.hx
 !.gitignore
 !LICENSE
 !*.md
