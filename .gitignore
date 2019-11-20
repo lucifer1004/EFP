@@ -1,6 +1,7 @@
 *
 !/**/
 !*.pony
+!*.exs
 !.gitignore
 !LICENSE
 !*.md
