@@ -5,6 +5,7 @@
 !*.kts
 !*.cr
 !*.hx
+!*.v
 !.gitignore
 !LICENSE
 !*.md
