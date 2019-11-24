@@ -1,7 +1,9 @@
 *
 !/**/
 !*.pony
+!*.ex
 !*.exs
+!*.lock
 !*.kts
 !*.cr
 !*.hx
