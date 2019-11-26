@@ -9,6 +9,7 @@
 !*.hx
 !*.v
 !*.swift
+!*.lisp
 !.gitignore
 !LICENSE
 !*.md
