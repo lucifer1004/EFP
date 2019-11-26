@@ -98,10 +98,10 @@ defmodule Gui.Scene.Home do
                       "so you can retire in #{state.year + retire - current}."
 
                     current > retire ->
-                      "It's #{state.year}, and you retired in #{state.year + retire - current}."
+                      "and you retired in #{state.year + retire - current}."
 
                     true ->
-                      "It's #{state.year}, the same year in which you can retire."
+                      "the same year in which you can retire."
                   end
             end
           )
