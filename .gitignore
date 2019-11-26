@@ -8,6 +8,7 @@
 !*.cr
 !*.hx
 !*.v
+!*.swift
 !.gitignore
 !LICENSE
 !*.md
