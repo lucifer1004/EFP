@@ -12,6 +12,7 @@
 !*.swift
 !*.lisp
 !*.go
+!*.sh
 !.gitignore
 !LICENSE
 !*.md
