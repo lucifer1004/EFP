@@ -17,6 +17,7 @@
 !*.pl
 !*.lua
 !*.ml
+!*.php
 !.gitignore
 !LICENSE
 !Makefile
