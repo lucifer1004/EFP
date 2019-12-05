@@ -13,6 +13,7 @@
 !*.lisp
 !*.go
 !*.sh
+!*.rb
 !.gitignore
 !LICENSE
 !*.md
