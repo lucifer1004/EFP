@@ -16,6 +16,8 @@
 !*.rb
 !*.pl
 !*.lua
+!*.ml
 !.gitignore
 !LICENSE
+!Makefile
 !*.md
