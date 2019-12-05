@@ -15,6 +15,7 @@
 !*.sh
 !*.rb
 !*.pl
+!*.lua
 !.gitignore
 !LICENSE
 !*.md
