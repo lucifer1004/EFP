@@ -18,6 +18,7 @@
 !*.lua
 !*.ml
 !*.php
+!*.py
 !.gitignore
 !LICENSE
 !Makefile
