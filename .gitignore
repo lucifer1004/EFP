@@ -19,6 +19,7 @@
 !*.ml
 !*.php
 !*.py
+!*.asm
 !.gitignore
 !LICENSE
 !Makefile
