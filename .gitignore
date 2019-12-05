@@ -8,6 +8,7 @@
 !*.cr
 !*.hx
 !*.v
+!*.dart
 !*.swift
 !*.lisp
 !.gitignore
