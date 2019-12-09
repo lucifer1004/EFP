@@ -13,6 +13,7 @@
 !*.ex
 !*.exs
 !*.go
+!*.hs
 !*.hx
 !*.java
 !*.jl
