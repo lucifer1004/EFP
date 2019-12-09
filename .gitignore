@@ -24,7 +24,6 @@ obj
 !*.jl
 !*.kts
 !*.lisp
-!*.lock
 !*.lua
 !*.md
 !*.ml
@@ -34,7 +33,13 @@ obj
 !*.py
 !*.r
 !*.rb
+!*.rs
 !*.sh
 !*.swift
+!*.toml
 !*.v
 !*.vala
+!*.yaml
+!*.yml
+
+!mix.lock
