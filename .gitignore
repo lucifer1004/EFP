@@ -20,6 +20,7 @@
 !*.php
 !*.py
 !*.asm
+!*.java
 !.gitignore
 !LICENSE
 !Makefile
