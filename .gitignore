@@ -5,10 +5,15 @@
 !LICENSE
 !Makefile
 
+bin
+obj
+
 !*.asm
 !*.c
 !*.cc
 !*.cr
+!*.cs
+!*.csproj
 !*.dart
 !*.ex
 !*.exs
