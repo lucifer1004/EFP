@@ -32,6 +32,7 @@ obj
 !*.pl
 !*.pony
 !*.py
+!*.r
 !*.rb
 !*.sh
 !*.swift
