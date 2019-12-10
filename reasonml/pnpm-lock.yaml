@@ -2866,10 +2866,10 @@ packages:
     resolution:
       integrity: sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
 specifiers:
-  bs-platform: ^7.0.1
-  moduleserve: ^0.9.0
-  react: ^16.12.0
-  react-dom: ^16.12.0
-  reason-react: ^0.7.0
-  webpack: ^4.41.2
-  webpack-cli: ^3.3.10
+  bs-platform: 7.0.1
+  moduleserve: 0.9.0
+  react: 16.12.0
+  react-dom: 16.12.0
+  reason-react: 0.7.0
+  webpack: 4.41.2
+  webpack-cli: 3.3.10
