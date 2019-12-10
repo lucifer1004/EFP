@@ -11,6 +11,7 @@ obj
 !*.asm
 !*.c
 !*.cc
+!*.clj
 !*.cr
 !*.cs
 !*.csproj
