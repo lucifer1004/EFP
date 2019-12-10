@@ -1,0 +1,5 @@
+{
+  "name": "mint",
+  "source-directories": ["src"],
+  "test-directories": ["tests"]
+}

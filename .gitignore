@@ -36,6 +36,7 @@ target
 !*.lisp
 !*.lua
 !*.md
+!*.mint
 !*.ml
 !*.php
 !*.pl
