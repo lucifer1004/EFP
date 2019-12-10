@@ -43,6 +43,7 @@ target
 !*.py
 !*.r
 !*.rb
+!*.re
 !*.rs
 !*.scala
 !*.sh
