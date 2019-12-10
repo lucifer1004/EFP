@@ -6,7 +6,10 @@
 !Makefile
 
 bin
+build
 obj
+target
+.vscode
 
 !*.asm
 !*.c
@@ -15,14 +18,20 @@ obj
 !*.cr
 !*.cs
 !*.csproj
+!*.css
 !*.dart
+!*.elm
 !*.ex
 !*.exs
 !*.go
 !*.hs
+!*.html
 !*.hx
+!*.ico
 !*.java
 !*.jl
+!*.js
+!*.json
 !*.kts
 !*.lisp
 !*.lua
@@ -37,8 +46,10 @@ obj
 !*.rs
 !*.scala
 !*.sh
+!*.svg
 !*.swift
 !*.toml
+!*.ts
 !*.v
 !*.vala
 !*.yaml
