@@ -11,6 +11,7 @@ obj
 target
 .vscode
 
+!*.adb
 !*.asm
 !*.c
 !*.cc
