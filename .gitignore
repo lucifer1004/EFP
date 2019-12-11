@@ -38,6 +38,7 @@ target
 !*.md
 !*.mint
 !*.ml
+!*.pas
 !*.php
 !*.pl
 !*.pony
