@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "bs-platform": "7.0.1",
-    "moduleserve": "0.9.0",
+    "moduleserve": "0.9.1",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10"
   }
