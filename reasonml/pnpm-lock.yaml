@@ -1,7 +1,7 @@
 dependencies:
   react: 16.12.0
   react-dom: 16.12.0_react@16.12.0
-  reason-react: 0.7.0
+  reason-react: 0.9.1_7f9c66ebd0682e43ec6c3e7e8b7ebead
 devDependencies:
   bs-platform: 7.0.1
   moduleserve: 0.9.0
@@ -380,7 +380,6 @@ packages:
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /bs-platform/7.0.1:
-    dev: true
     hasBin: true
     requiresBuild: true
     resolution:
@@ -2147,13 +2146,18 @@ packages:
       node: '>=0.10'
     resolution:
       integrity: sha512-1JU/8q+VgFZyxwrJ+SVIOsh+KywWGpds3NTqikiKpDMZWScmAYyKIgqkO+ARvNWJfXeXR1zxz7aHF4u4CyH6vQ==
-  /reason-react/0.7.0:
+  /reason-react/0.9.1_7f9c66ebd0682e43ec6c3e7e8b7ebead:
     dependencies:
+      bs-platform: 7.0.1
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
     dev: false
+    peerDependencies:
+      bs-platform: ^7.1.1
+      react: ^16.8.1
+      react-dom: ^16.8.1
     resolution:
-      integrity: sha512-czR/f0lY5iyLCki9gwftOFF5Zs40l7ZSFmpGK/Z6hx2jBVeFDmIiXB8bAQW/cO6IvtuEt97OmsYueiuOYG9XjQ==
+      integrity: sha512-nlH0O2TDy9KzOLOW+vlEQk4ExHOeciyzFdoLcsmmiit6hx6H5+CVDrwJ+8aiaLT/kqK5xFOjy4PS7PftWz4plA==
   /regex-not/1.0.2:
     dependencies:
       extend-shallow: 3.0.2
@@ -2870,6 +2874,6 @@ specifiers:
   moduleserve: 0.9.0
   react: 16.12.0
   react-dom: 16.12.0
-  reason-react: 0.7.0
+  reason-react: 0.9.1
   webpack: 4.41.2
   webpack-cli: 3.3.10
