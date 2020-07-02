@@ -3,7 +3,7 @@ dependencies:
   react-dom: 16.12.0_react@16.12.0
   reason-react: 0.7.0
 devDependencies:
-  bs-platform: 7.0.1
+  bs-platform: 8.0.3
   moduleserve: 0.9.0
   webpack: 4.41.2_webpack@4.41.2
   webpack-cli: 3.3.10_webpack@4.41.2
@@ -379,12 +379,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
-  /bs-platform/7.0.1:
+  /bs-platform/8.0.3:
     dev: true
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-UjStdtHhbtC/l6vKJ1XRDqrPk7rFf5PLYHtRX3akDXEYVnTbN36z0g4DEr5mU8S0N945e33HYts9x+i7hKKpZQ==
+      integrity: sha512-I7wulOPM0/NGamwm9CDh9rGjW1oIKltPwwEIOJrL8DBFRXI8OFSACtWGlpaoOw76Xpf+KcVokr00keS2NlzA3A==
   /buffer-from/1.1.1:
     dev: true
     resolution:
@@ -2866,7 +2866,7 @@ packages:
     resolution:
       integrity: sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
 specifiers:
-  bs-platform: 7.0.1
+  bs-platform: 8.0.3
   moduleserve: 0.9.0
   react: 16.12.0
   react-dom: 16.12.0
