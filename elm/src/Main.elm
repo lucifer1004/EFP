@@ -97,13 +97,11 @@ view model =
         [ img [ src "/logo.svg" ] []
         , h1 []
             [ text
-                ("Exercises for Programmers"
-                    ++ (if model.url.path /= "/" then
-                            restoreFromLink model.url.path
+                (if model.url.path /= "/" then
+                    restoreFromLink model.url.path
 
-                        else
-                            ""
-                       )
+                 else
+                    "Exercises for Programmers (EFP)"
                 )
             ]
         , if model.url.path == "/" then
@@ -213,4 +211,4 @@ generateLink index title =
 
 restoreFromLink : String -> String
 restoreFromLink link =
-    String.replace "/" ":" (String.replace "_" " " link)
+    String.replace "/" "" (String.replace "_" " " link)
