@@ -1,13 +1,13 @@
 dependencies:
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
-  reason-react: 0.9.1_745d62c49faf64d0e4b6f7c1fc8dd42f
+  reason-react: 0.9.1_9c36ce6c7d4d41b07193924d8f7638ee
 devDependencies:
-  bs-platform: 8.2.0
+  bs-platform: 8.4.2
   moduleserve: 0.9.1
-  webpack: 4.43.0_webpack@4.43.0
+  webpack: 4.43.0
   webpack-cli: 3.3.11_webpack@4.43.0
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@webassemblyjs/ast/1.9.0:
     dependencies:
@@ -420,11 +420,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
-  /bs-platform/8.2.0:
+  /bs-platform/8.4.2:
+    dev: true
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-quvmUac/ZxGDsT7L5+6RNXrLPvLHkWFownacaqlwVoyAm770bPyupTRU49ALPGk3HpjfD5eE+lpGdOSPtuwJiA==
+      integrity: sha512-9q7S4/LLV/a68CweN382NJdCCr/lOSsJR3oQYnmPK98ChfO/AdiA3lYQkQTp6T+U0I5Z5RypUAUprNstwDtMDQ==
   /buffer-from/1.1.1:
     dev: true
     resolution:
@@ -2297,9 +2298,9 @@ packages:
     optional: true
     resolution:
       integrity: sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
-  /reason-react/0.9.1_745d62c49faf64d0e4b6f7c1fc8dd42f:
+  /reason-react/0.9.1_9c36ce6c7d4d41b07193924d8f7638ee:
     dependencies:
-      bs-platform: 8.2.0
+      bs-platform: 8.4.2
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
     dev: false
@@ -2715,7 +2716,7 @@ packages:
       serialize-javascript: 3.1.0
       source-map: 0.6.1
       terser: 4.8.0
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.43.0
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
     dev: true
@@ -2928,7 +2929,7 @@ packages:
       loader-utils: 1.2.3
       supports-color: 6.1.0
       v8-compile-cache: 2.0.3
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.43.0
       yargs: 13.2.4
     dev: true
     engines:
@@ -2945,7 +2946,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
-  /webpack/4.43.0_webpack@4.43.0:
+  /webpack/4.43.0:
     dependencies:
       '@webassemblyjs/ast': 1.9.0
       '@webassemblyjs/helper-module-context': 1.9.0
@@ -2974,8 +2975,6 @@ packages:
     engines:
       node: '>=6.11.5'
     hasBin: true
-    peerDependencies:
-      webpack: '*'
     resolution:
       integrity: sha512-GW1LjnPipFW2Y78OOab8NJlCflB7EFskMih2AHdvjbpKMeDJqEgSx24cXXXiPS65+WSwVyxtDsJH6jGX2czy+g==
   /which-module/2.0.0:
@@ -3047,7 +3046,7 @@ packages:
     resolution:
       integrity: sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
 specifiers:
-  bs-platform: 8.2.0
+  bs-platform: 8.4.2
   moduleserve: 0.9.1
   react: 16.13.1
   react-dom: 16.13.1
