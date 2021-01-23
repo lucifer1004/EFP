@@ -22,7 +22,7 @@ defmodule CurrencyConversion.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.6.2"},
+      {:httpoison, "~> 1.8.0"},
       {:jason, "~> 1.1"}
     ]
   end
