@@ -5,9 +5,9 @@ dependencies:
 devDependencies:
   bs-platform: 8.2.0
   moduleserve: 0.9.1
-  webpack: 4.43.0_webpack@4.43.0
-  webpack-cli: 3.3.11_webpack@4.43.0
-lockfileVersion: 5.1
+  webpack: 4.46.0_webpack-cli@3.3.11
+  webpack-cli: 3.3.11_webpack@4.46.0
+lockfileVersion: 5.2
 packages:
   /@webassemblyjs/ast/1.9.0:
     dependencies:
@@ -421,6 +421,7 @@ packages:
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /bs-platform/8.2.0:
+    dev: true
     hasBin: true
     requiresBuild: true
     resolution:
@@ -851,7 +852,7 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-F/7vkyTtyc/llOIn8oWclcB25KdRaiPBpZYDgJHgh/UHtpgT2p2eldQgtQnLtUvfMKPKxbRaQM/hHkvLHt1Vng==
-  /enhanced-resolve/4.3.0:
+  /enhanced-resolve/4.5.0:
     dependencies:
       graceful-fs: 4.2.4
       memory-fs: 0.5.0
@@ -860,7 +861,7 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
-      integrity: sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
+      integrity: sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -1116,6 +1117,7 @@ packages:
     resolution:
       integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==
   /fsevents/2.1.3:
+    deprecated: '"Please update to latest v2.3 or v2.2"'
     dev: true
     engines:
       node: ^8.16.0 || ^10.6.0 || >=11.0.0
@@ -2369,7 +2371,7 @@ packages:
     resolution:
       integrity: sha1-six699nWiBvItuZTM17rywoYh0g=
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -2706,7 +2708,7 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
-  /terser-webpack-plugin/1.4.4_webpack@4.43.0:
+  /terser-webpack-plugin/1.4.4_webpack@4.46.0:
     dependencies:
       cacache: 12.0.4
       find-cache-dir: 2.1.0
@@ -2715,7 +2717,7 @@ packages:
       serialize-javascript: 3.1.0
       source-map: 0.6.1
       terser: 4.8.0
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.46.0_webpack-cli@3.3.11
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
     dev: true
@@ -2856,7 +2858,7 @@ packages:
     resolution:
       integrity: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -2916,7 +2918,7 @@ packages:
       watchpack-chokidar2: 2.0.0
     resolution:
       integrity: sha512-aWAgTW4MoSJzZPAicljkO1hsi1oKj/RRq/OJQh2PKI2UKL04c2Bs+MBOB+BBABHTXJpf9mCwHN7ANCvYsvY2sg==
-  /webpack-cli/3.3.11_webpack@4.43.0:
+  /webpack-cli/3.3.11_webpack@4.46.0:
     dependencies:
       chalk: 2.4.2
       cross-spawn: 6.0.5
@@ -2928,7 +2930,7 @@ packages:
       loader-utils: 1.2.3
       supports-color: 6.1.0
       v8-compile-cache: 2.0.3
-      webpack: 4.43.0_webpack@4.43.0
+      webpack: 4.46.0_webpack-cli@3.3.11
       yargs: 13.2.4
     dev: true
     engines:
@@ -2945,7 +2947,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
-  /webpack/4.43.0_webpack@4.43.0:
+  /webpack/4.46.0_webpack-cli@3.3.11:
     dependencies:
       '@webassemblyjs/ast': 1.9.0
       '@webassemblyjs/helper-module-context': 1.9.0
@@ -2955,7 +2957,7 @@ packages:
       ajv: 6.12.3
       ajv-keywords: 3.5.2_ajv@6.12.3
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 4.3.0
+      enhanced-resolve: 4.5.0
       eslint-scope: 4.0.3
       json-parse-better-errors: 1.0.2
       loader-runner: 2.4.0
@@ -2967,17 +2969,24 @@ packages:
       node-libs-browser: 2.2.1
       schema-utils: 1.0.0
       tapable: 1.1.3
-      terser-webpack-plugin: 1.4.4_webpack@4.43.0
+      terser-webpack-plugin: 1.4.4_webpack@4.46.0
       watchpack: 1.7.4
+      webpack-cli: 3.3.11_webpack@4.46.0
       webpack-sources: 1.4.3
     dev: true
     engines:
       node: '>=6.11.5'
     hasBin: true
     peerDependencies:
-      webpack: '*'
+      webpack-cli: '*'
+      webpack-command: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+      webpack-command:
+        optional: true
     resolution:
-      integrity: sha512-GW1LjnPipFW2Y78OOab8NJlCflB7EFskMih2AHdvjbpKMeDJqEgSx24cXXXiPS65+WSwVyxtDsJH6jGX2czy+g==
+      integrity: sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==
   /which-module/2.0.0:
     dev: true
     resolution:
@@ -3052,5 +3061,5 @@ specifiers:
   react: 16.13.1
   react-dom: 16.13.1
   reason-react: 0.9.1
-  webpack: 4.43.0
+  webpack: 4.46.0
   webpack-cli: 3.3.11
