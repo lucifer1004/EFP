@@ -23,7 +23,7 @@ defmodule Gui.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:scenic, "~> 0.10"},
+      {:scenic, "~> 0.11"},
       {:scenic_driver_glfw, "~> 0.10", targets: :host},
     ]
   end
